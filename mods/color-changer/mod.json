@@ -1,0 +1,11 @@
+{
+    "name": "Color changer",
+    "version": "0.0.1",
+    "description": "Change the color",
+    
+    "main": "changeColor.js",
+    
+    "author": "Skagenmacka",
+    
+    "repository": "https://github.com/skagenmacka/snake/blob/main/color-changer"
+}

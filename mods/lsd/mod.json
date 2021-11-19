@@ -1,0 +1,11 @@
+{
+    "name": "LSD",
+    "version": "0.0.1",
+    "description": "Distorts and shifts the colors",
+    
+    "main": "lsd.js",
+    
+    "author": "Skagenmacka",
+    
+    "repository": "https://github.com/skagenmacka/snake/blob/main/lsd"
+}
