@@ -6,5 +6,6 @@ var Mod = () => {
     colors.shadows =    '#000000';
     colors.lightTiles = '#353536';
     colors.darkTiles =  '#2b2b2b';
+    colors.bar =        '#000000';
 }
 
