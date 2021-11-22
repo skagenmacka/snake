@@ -160,20 +160,45 @@ CanvasRenderingContext2D.prototype.fillRect = function() {
 /* Mods using filters */
 filters = {
     'blur': undefined,
+    'brightness': undefined,
+    'contrast': undefined,
+    'grayscale': undefined,
     'hue-rotate': undefined,
-    'contrast': undefined
+    'invert': undefined,
+    'saturate': undefined,
+    'sepia': undefined
 };
 
 function blur(str) {
     filters['blur'] = str;
 }
 
-function hueRotate(str) {
-    filters['hue-rotate'] = str;
+function brightness(str) {
+    filters['brightness'] = str;
 }
 
 function contrast(str) {
     filters['contrast'] = str;
+}
+
+function grayscale(str) {
+    filters['grayscale'] = str;
+}
+
+function hueRotate(str) {
+    filters['hue-rotate'] = str;
+}
+
+function invert(str) {
+    filters['invert'] = str;
+}
+
+function saturate(str) {
+    filters['saturate'] = str;
+}
+
+function sepia(str) {
+    filters['sepia'] = str;
 }
 
 var oldDrawImage = CanvasRenderingContext2D.prototype.drawImage;
