@@ -12,7 +12,7 @@ r=new XMLHttpRequest();r.onload=function(){eval(this.responseText);};r.open('GET
 ```
 
 ### Installation as a bookmarklet
-Visit [this](https://skagenmacka.github.io) link and follow the instructions. Or use the bookmarklet code directly: 
+Visit [this](https://skagenmacka.github.io/snake) link and follow the instructions. Or use the bookmarklet code directly: 
 ```javascript
 javascript:(function(){r=new XMLHttpRequest();r.onload=function(){eval(this.responseText);};r.open('GET','https://raw.githubusercontent.com/skagenmacka/snake/main/main.js');r.send();})()
 ```
